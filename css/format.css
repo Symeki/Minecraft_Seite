@@ -1,0 +1,116 @@
+
+h2 {
+	text-align: center;
+    }
+h1 {
+	text-align: center;
+    }
+body {
+   font-family: 'MinecraftiaRegular';
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   background-image: url("Minecraft-Hintergrund.jpg");
+   background-repeat: no-repeat;
+   background-position:center;
+   background-attachment: fixed;
+   background-width: 90%;
+   background-height: 80%;
+}
+	
+  a {
+		text-decoration: none;
+	}
+
+.image
+{
+
+   
+}
+.column {
+	flex-direction: column;
+.row {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 30px;	
+	margin: 0px;	
+}
+
+.flex-container {
+display:flex; 
+
+}
+
+.flex-container .img-container {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+}
+
+.content-container {
+	display:flex;
+	flex-direction:column;
+}
+.content-container .content-item-wrap {
+	display:flex;
+	justify-content:center;
+	
+}
+.content-container .content-item {
+	display:flex;
+	padding:10px;
+	width:70%;
+	max-width:600px;
+	background-color:rgba(255,255,255,0.6);
+	margin-bottom:10px;
+}
+.content-container .content-item .content-item-text{
+	flex:1;
+}
+.content-container .content-item .content-item-img{
+	flex:0 auto;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	overflow:hidden;
+	
+}
+.content-container .content-item .content-item-img > img{
+	max-width:200px;
+	
+}
+
+.button{
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+#minecraft-banner {
+	width: 80%;
+	height auto;
+	
+
+}
+
+.button:hover
+{
+	transform: scale(1.2,1.2);
+}
+
+.button:active
+{
+	background-color: white;
+	color: black;
+}
